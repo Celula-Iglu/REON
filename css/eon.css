@@ -77,7 +77,20 @@ main {
     visibility: hidden;
 }
 
+
+@media screen and (max-width: 640px) and (orientation: portrait) {
+
+    .oculto--ipod{
+        display: none !important;
+    }
+}
+
 @media screen and (max-width: 415px) and (orientation: portrait) {
+
+    .oculto--ipod{
+        display: none;
+    }
+
     .section0 {
         position: static;
         padding-bottom: 100% !important;
@@ -110,7 +123,7 @@ main {
         margin: auto;
     }
     .btn-outline-primary-T {
-        font-size: 3mm !important;
+        font-size: 5mm !important;
         color: #ffffff;
         border-color: #ffffff;
         border-radius: 10px !important;
@@ -253,3 +266,7 @@ main {
         z-index: -1;
     }
 }
+
+
+
+
