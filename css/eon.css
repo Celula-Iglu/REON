@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+html, body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 main {
     flex: 1;
 }
@@ -75,6 +78,7 @@ main {
 
 .oculto{
     visibility: hidden;
+    
 }
 
 
@@ -266,7 +270,4 @@ main {
         z-index: -1;
     }
 }
-
-
-
 
